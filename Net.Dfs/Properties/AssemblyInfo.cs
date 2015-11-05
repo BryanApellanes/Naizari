@@ -1,4 +1,7 @@
-﻿using System.Reflection;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

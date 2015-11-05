@@ -1,3 +1,6 @@
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
 using System.Data.SqlClient;
 using Naizari.Data.Access;
 

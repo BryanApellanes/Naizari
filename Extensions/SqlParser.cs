@@ -1,3 +1,6 @@
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
 using System;
 using System.Runtime.InteropServices;
 using System.Text;

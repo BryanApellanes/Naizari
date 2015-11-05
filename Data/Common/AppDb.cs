@@ -1,4 +1,7 @@
-﻿using Naizari.Data;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using Naizari.Data;
 using Naizari.Logging;
 
 namespace Naizari.Data.Common

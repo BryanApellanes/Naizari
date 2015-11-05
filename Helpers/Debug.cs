@@ -1,4 +1,7 @@
-﻿using System;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System;
 using System.Reflection;
 
 namespace Naizari.Helpers

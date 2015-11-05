@@ -1,4 +1,7 @@
-﻿using System;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
@@ -604,15 +607,25 @@ namespace Naizari.Extensions
         public static string Pluralize(this string stringToPluralize)
         {
             if (stringToPluralize.ToLowerInvariant().EndsWith("ies"))
+            {
                 return stringToPluralize;
+            }
             else if (stringToPluralize.ToLowerInvariant().EndsWith("us"))
+            {
                 return stringToPluralize.Substring(0, stringToPluralize.Length - 2) + "i";
+            }
             else if (stringToPluralize.ToLowerInvariant().EndsWith("s"))
+            {
                 return stringToPluralize + "es";
+            }
             else if (stringToPluralize.ToLowerInvariant().EndsWith("y"))
+            {
                 return stringToPluralize.Substring(0, stringToPluralize.Length - 1) + "ies";
+            }
             else
-                return stringToPluralize;                            
+            {
+                return stringToPluralize + "s";
+            }
         }
 
         public static string PascalSplit(this string stringToPascalSplit, string separator)

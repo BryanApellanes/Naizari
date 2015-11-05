@@ -1,4 +1,7 @@
-﻿using System;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System;
 namespace Naizari.Helpers
 {
     interface IKeyVectorPair

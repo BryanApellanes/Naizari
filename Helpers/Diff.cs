@@ -1,3 +1,6 @@
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
 // This file was downloaded from codeproject.com
 // Just want to acknowledge that ;) -BA
 //

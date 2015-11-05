@@ -1,3 +1,6 @@
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
 // <copyright file="ArrayBuilder.cs" company="JsonExSerializer Project Contributors">
 // Copyright (c) 2007, JsonExSerializer Project Contributors
 // Code licensed under the New BSD License:

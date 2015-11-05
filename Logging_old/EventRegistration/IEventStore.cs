@@ -1,4 +1,7 @@
-﻿using System;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System;
 namespace Naizari.Logging.EventRegistration
 {
     public interface IEventStore

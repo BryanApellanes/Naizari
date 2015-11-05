@@ -1,4 +1,7 @@
 /*
+	Copyright © Bryan Apellanes 2015  
+*/
+/*
  * Copyright (c) 2007, Ted Elliott
  * Code licensed under the New BSD License:
  * http://code.google.com/p/jsonexserializer/wiki/License

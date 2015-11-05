@@ -1,4 +1,7 @@
-﻿using System;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +11,7 @@ using Naizari.Helpers;
 
 namespace Naizari.Extensions
 {
+    [Serializable]
     public abstract class CommandLineInterface
     {
         /// <summary>
@@ -189,7 +193,6 @@ namespace Naizari.Extensions
             Menus.Add(menu);
         }
         
-        // TODO: review this to fix potential memory leak
         protected static void MainMenu(Assembly assemblyToAnalyze, ConsoleMenu[] otherMenus, string headerText)
         {
             List<ConsoleInvokeableMethod> actions = GetActions(assemblyToAnalyze);
@@ -200,7 +203,6 @@ namespace Naizari.Extensions
             ShowMenu(actions);
             Console.WriteLine();
             Console.Write("| Q -> quit | ");
-            //WriteOtherMenuOptions(otherMenus);
 
             string answer = ShowSelectedMenuOrReturnAnswer(otherMenus);
 

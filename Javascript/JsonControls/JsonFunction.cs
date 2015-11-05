@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System.Collections.Generic;
 using System.IO;
 using System.Web;
 using System.Web.UI;

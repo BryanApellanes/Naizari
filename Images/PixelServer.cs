@@ -1,4 +1,7 @@
-﻿using System;
+/*
+	Copyright © Bryan Apellanes 2015  
+*/
+using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
